@@ -98,7 +98,7 @@ if (typeof jQuery === 'undefined') {
 
   Alert.VERSION = '3.3.6'
 
-  Alert.TRANSITION_DURATION = 150
+  Alert.TRANSITION_DURATION = 500
 
   Alert.prototype.close = function (e) {
     var $this    = $(this)
@@ -326,7 +326,7 @@ if (typeof jQuery === 'undefined') {
 
   Carousel.VERSION  = '3.3.6'
 
-  Carousel.TRANSITION_DURATION = 600
+  Carousel.TRANSITION_DURATION = 900
 
   Carousel.DEFAULTS = {
     interval: 5000,
@@ -945,8 +945,8 @@ if (typeof jQuery === 'undefined') {
 
   Modal.VERSION  = '3.3.6'
 
-  Modal.TRANSITION_DURATION = 300
-  Modal.BACKDROP_TRANSITION_DURATION = 150
+  Modal.TRANSITION_DURATION = 600
+  Modal.BACKDROP_TRANSITION_DURATION = 300
 
   Modal.DEFAULTS = {
     backdrop: true,
@@ -2066,7 +2066,7 @@ if (typeof jQuery === 'undefined') {
 
   Tab.VERSION = '3.3.6'
 
-  Tab.TRANSITION_DURATION = 150
+  Tab.TRANSITION_DURATION = 500
 
   Tab.prototype.show = function () {
     var $this    = this.element
